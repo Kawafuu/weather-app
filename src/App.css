@@ -1,0 +1,41 @@
+*{
+margin:0;
+padding:0;
+}
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(./cool-background.png);
+  background-repeat: round;
+  background-size: auto;
+  width:100vw;
+  height:100vh;
+  color: white;
+  flex-direction: column;
+  font-size:1.5rem;
+  border-radius: 2rem;
+  box-shadow: .1rem .1rem black;
+}
+.Form{
+  margin-bottom: 3rem;
+}
+button{
+  height:2rem;
+}
+input{
+  height: 1.75rem;
+}
+.app-wrapper{
+  text-align: center;
+  height: 50vh;
+  width:40vw;
+  background-color: #ffffff;
+  border-radius: 2rem;
+  box-shadow: .1rem .1rem black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color:black;
+}
